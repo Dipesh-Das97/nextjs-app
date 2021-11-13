@@ -1,3 +1,17 @@
+import styles from '../styles/Home.module.css'
+function HomePage() {
+  return (
+    <main className={styles.main}>
+      <h1 className={styles.title}>
+        Todo App {/*<a href="https://nextjs.org">Next.js!</a>*/}
+      </h1>
+    </main>
+  )
+}
+
+export default HomePage
+
+/*
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -70,3 +84,4 @@ const Home: NextPage = () => {
 }
 
 export default Home
+*/
