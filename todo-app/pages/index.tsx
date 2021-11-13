@@ -1,3 +1,23 @@
+import styles from '../styles/Home.module.css'
+
+function HomePage() {
+  return (
+    <main className={styles.main}>
+      <h1 className={styles.title}></h1>
+      <div className="App">
+        <h1 style={{textAlign: 'center',background: '#333'}}>Welcome to my Todo App</h1>
+        <p>Please enter your todos:</p>
+        {/*<AddTodo addTodo={this.addTodo}/>*/}
+        {/*<Todo todos={this.state.todos} handleChange={this.handleChange}*/}
+        {/* deleteTodo={this.deleteTodo} />*/}
+      </div>
+    </main>
+    );
+}
+
+export default HomePage
+
+/*
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -70,3 +90,4 @@ const Home: NextPage = () => {
 }
 
 export default Home
+*/
